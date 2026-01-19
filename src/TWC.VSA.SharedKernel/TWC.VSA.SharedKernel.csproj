@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TWC.VSA.Core\TWC.VSA.Core.csproj" />
+    </ItemGroup>
+
 </Project>

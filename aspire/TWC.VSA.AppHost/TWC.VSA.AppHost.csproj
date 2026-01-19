@@ -8,4 +8,12 @@
         <UserSecretsId>d5516557-677c-4258-ab9a-a02bac9b9850</UserSecretsId>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\TWC.VSA.Api\TWC.VSA.Api.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+    </ItemGroup>
+
 </Project>

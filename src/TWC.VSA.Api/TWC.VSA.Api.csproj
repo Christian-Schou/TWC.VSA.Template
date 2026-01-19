@@ -7,7 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0"/>
+        <PackageReference Include="Aspire.Hosting" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+        <PackageReference Include="WolverineFx.Http" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\aspire\TWC.VSA.ServiceDefaults\TWC.VSA.ServiceDefaults.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Features\TWC.VSA.Features.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Infrastructure\TWC.VSA.Infrastructure.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Persistence\TWC.VSA.Persistence.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Web\TWC.VSA.Web.csproj" />
     </ItemGroup>
 
 </Project>

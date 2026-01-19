@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" />
+      <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+      <PackageReference Include="Riok.Mapperly" />
+      <PackageReference Include="WolverineFx" />
+      <PackageReference Include="WolverineFx.Http" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TWC.VSA.Contracts\TWC.VSA.Contracts.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Core\TWC.VSA.Core.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Infrastructure\TWC.VSA.Infrastructure.csproj" />
+      <ProjectReference Include="..\TWC.VSA.Persistence\TWC.VSA.Persistence.csproj" />
+      <ProjectReference Include="..\TWC.VSA.SharedKernel\TWC.VSA.SharedKernel.csproj" />
+    </ItemGroup>
+
 </Project>
