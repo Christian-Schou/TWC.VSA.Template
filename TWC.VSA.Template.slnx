@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/aspire/">
+    <Project Path="aspire/TWC.VSA.AppHost/TWC.VSA.AppHost.csproj" />
+    <Project Path="aspire/TWC.VSA.ServiceDefaults/TWC.VSA.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/TWC.VSA.Api/TWC.VSA.Api.csproj" />
+    <Project Path="src/TWC.VSA.Contracts/TWC.VSA.Contracts.csproj" />
+    <Project Path="src/TWC.VSA.Core/TWC.VSA.Core.csproj" />
+    <Project Path="src/TWC.VSA.Features/TWC.VSA.Features.csproj" />
+    <Project Path="src/TWC.VSA.Infrastructure/TWC.VSA.Infrastructure.csproj" />
+    <Project Path="src/TWC.VSA.Persistence/TWC.VSA.Persistence.csproj" />
+    <Project Path="src/TWC.VSA.SharedKernel/TWC.VSA.SharedKernel.csproj" />
+    <Project Path="src/TWC.VSA.Web/TWC.VSA.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TWC.VSA.Api.Tests/TWC.VSA.Api.Tests.csproj" />
+    <Project Path="tests/TWC.VSA.Architecture.Tests/TWC.VSA.Architecture.Tests.csproj" />
+    <Project Path="tests/TWC.VSA.Features.Tests/TWC.VSA.Features.Tests.csproj" />
+    <Project Path="tests/TWC.VSA.Infrastructure.Tests/TWC.VSA.Infrastructure.Tests.csproj" />
+    <Project Path="tests/TWC.VSA.Persistence.Tests/TWC.VSA.Persistence.Tests.csproj" />
+  </Folder>
+</Solution>
